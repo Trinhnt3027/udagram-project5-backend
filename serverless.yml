@@ -5,7 +5,6 @@ service: trinhnt16-serverless-todo-app
 plugins:
   - serverless-webpack
   - serverless-reqvalidator-plugin
-  - serverless-aws-documentation
   - serverless-iam-roles-per-function
   - serverless-plugin-tracing
 
